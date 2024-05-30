@@ -62,3 +62,12 @@ console.log(selectedColors);
 console.log(selectedColors[0]);
 
 console.log(selectedColors.length);
+// < Arrays
+
+
+
+function greet(name, lastName) {
+    console.log('Hi ' + name + ' ' + lastName);
+}
+
+greet('Polly', 'Wolly');
