@@ -66,8 +66,19 @@ console.log(selectedColors.length);
 
 
 
+// Function that performs a task >
 function greet(name, lastName) {
     console.log('Hi ' + name + ' ' + lastName);
 }
 
 greet('Polly', 'Wolly');
+// < Function that performs a task
+
+// Function that calculates a value >
+function square(number) {
+    return number*number;
+}
+
+let number = square(9);
+console.log(number);
+// < Function that calculates a value
