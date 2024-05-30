@@ -1,4 +1,5 @@
 // JavaScript is a Dynamic Language, meaning that a variable's type can change during runtime
+// The length of an array, as well as the type of objects inside an array, can change during runtime
 // The console can be cleared with Ctrl+L
 // In JavaScript, all numbers are of type "number". There are no "integers", "floating points", "doubles", etc.
 // Bracket Notation allows an object's key-value pair to be selected at runtime by the user
@@ -49,3 +50,15 @@ console.log(person['age']);
 // < Bracket Notation to change an object's key-value pair
 
 // < Objects
+
+
+
+// Arrays >
+let selectedColors = ['red', 'blue']; // Array Literal
+selectedColors[2] = 'green';
+selectedColors[3] = 9;
+
+console.log(selectedColors);
+console.log(selectedColors[0]);
+
+console.log(selectedColors.length);
