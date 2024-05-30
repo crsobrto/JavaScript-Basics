@@ -1,3 +1,7 @@
+// JavaScript is a Dynamic Language, meaning that a variable's type can change during runtime
+// The console can be cleared with Ctrl+L
+// In JavaScript, all numbers are of type "number". There are no "integers", "floating points", "doubles", etc.
+
 console.log('Hello World'); // Statement in string form
 
 let name = 'Carson'; // Declaring a variable called "name"
@@ -11,7 +15,7 @@ const interestRate = 0.3;
 console.log(interestRate);
 
 let nameTwo = 'Charlie'; // String Literal
-let age = '22'; // Number Literal
+let age = 22; // Number Literal
 let isApproved = true; // Boolean Literal
-let firstNameTwo = undefined; 
-let lastNameTwo = null; // null clears the value of a variable
+let firstNameTwo = undefined; // typeof is "undefined"
+let lastNameTwo = null; // null clears the value of a variable; typeof is "object"
